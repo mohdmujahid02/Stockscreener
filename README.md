@@ -34,3 +34,41 @@ A Python-based stock screener that automates technical and fundamental analysis.
 git clone https://github.com/yourusername/Stockscreener.git
 cd Stockscreener
 pip install -r requirements.txt
+
+Configuration
+Add your SmartAPI credentials to config.py
+
+Add your Telegram Bot Token and Chat ID
+
+🖥️ Usage
+Run the script with: bash
+python screener.py
+You’ll receive a report file and Telegram alert if red flags are found.
+
+📤 Output
+nse_instruments.csv: Filtered list of stocks with technical & fundamental red flags.
+
+📬 Telegram Alerts
+Get instant alerts of shortlisted stocks directly in your Telegram group/chat.
+
+📄 License
+MIT License
+
+🙋‍♂️ Author
+MOHAMMED MUJAHID PASHA
+
+✨ Contributions
+PRs welcome! Please submit issues or improvements.
+
+
+4. Scroll down to the commit section again and fill it as:
+   - **Commit message**: `Add detailed README`
+   - Optional extended description: `Includes features, setup, usage, and output instructions.`
+
+5. Choose **“Commit directly to the main branch”** and click ✅ **Commit changes**
+
+---
+
+Once committed, GitHub will automatically render the README on your repository's main page, including all those headings.
+
+Let me know if you'd like a `config.py` or example `.env` file next.
